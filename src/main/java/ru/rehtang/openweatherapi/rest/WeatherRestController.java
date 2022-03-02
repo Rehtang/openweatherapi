@@ -10,17 +10,12 @@ import ru.rehtang.openweatherapi.service.WeatherProviderService;
 
 @RestController
 @RequiredArgsConstructor
-
 public class WeatherRestController {
-    private final WeatherProviderService service;
+  private final WeatherProviderService service;
 
+  @GetMapping("/weather")
+  public ApiResponseDto getWeather(@RequestBody RequestDto requestDto) {
 
-    @GetMapping("/weather")
-    public ApiResponseDto getWeather(@RequestBody RequestDto requestDto) {
-
-
-        return service.receiveWeather(requestDto.getCity());
-    }
-
-
+    return service.receiveWeather(requestDto.getCity());
+  }
 }
