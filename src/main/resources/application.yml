@@ -1,0 +1,6 @@
+spring:
+  main:
+    banner-mode: off
+
+openWeatherApi:
+  url: "http://api.openweathermap.org/data/2.5/weather?q=%s&appid=cea1fdf43d5f0f6984c884182cf02013&lang=ru&units=metric"
