@@ -1,0 +1,8 @@
+spring:
+  main:
+    banner-mode: off
+
+openWeatherApi:
+  feign:
+    apiKey: ""
+    url: "http://api.openweathermap.org/data/2.5"
