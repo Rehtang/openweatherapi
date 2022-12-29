@@ -1,4 +1,4 @@
-package ru.rehtang.openweatherapi.config;
+package ru.alexa.openweatherapi.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Contact;
@@ -24,9 +24,9 @@ public class SwaggerConfig {
         .version("1.0")
         .contact(
             new Contact()
-                .name("Danil")
-                .email("daniltc23@gmail.com")
-                .url("https://github.com/Rehtang/openweatherapi"));
+                .name("Alexandra")
+                .email("aleksandra22811@mail.ru")
+        );
   }
 
   private List<Server> serverList() {

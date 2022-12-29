@@ -1,4 +1,4 @@
-package ru.rehtang.openweatherapi;
+package ru.alexa.openweatherapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

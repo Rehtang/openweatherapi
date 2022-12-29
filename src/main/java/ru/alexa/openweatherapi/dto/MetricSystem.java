@@ -1,4 +1,4 @@
-package ru.rehtang.openweatherapi.dto;
+package ru.alexa.openweatherapi.dto;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

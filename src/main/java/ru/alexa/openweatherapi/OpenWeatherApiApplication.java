@@ -1,4 +1,4 @@
-package ru.rehtang.openweatherapi;
+package ru.alexa.openweatherapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

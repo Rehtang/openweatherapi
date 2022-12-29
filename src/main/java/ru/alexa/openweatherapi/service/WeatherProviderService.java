@@ -1,12 +1,12 @@
-package ru.rehtang.openweatherapi.service;
+package ru.alexa.openweatherapi.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-import ru.rehtang.openweatherapi.dto.ApiResponseDto;
-import ru.rehtang.openweatherapi.dto.Language;
-import ru.rehtang.openweatherapi.dto.MetricSystem;
-import ru.rehtang.openweatherapi.feign.OpenWeatherFeignClient;
+import ru.alexa.openweatherapi.dto.ApiResponseDto;
+import ru.alexa.openweatherapi.dto.Language;
+import ru.alexa.openweatherapi.feign.OpenWeatherFeignClient;
+import ru.alexa.openweatherapi.dto.MetricSystem;
 
 @Service
 @RequiredArgsConstructor

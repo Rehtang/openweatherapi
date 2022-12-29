@@ -1,4 +1,4 @@
-package ru.rehtang.openweatherapi.dto;
+package ru.alexa.openweatherapi.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;

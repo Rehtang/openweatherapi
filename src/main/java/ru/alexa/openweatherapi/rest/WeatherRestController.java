@@ -1,14 +1,14 @@
-package ru.rehtang.openweatherapi.rest;
+package ru.alexa.openweatherapi.rest;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import ru.rehtang.openweatherapi.dto.ApiResponseDto;
-import ru.rehtang.openweatherapi.dto.MetricSystem;
-import ru.rehtang.openweatherapi.dto.RequestDto;
-import ru.rehtang.openweatherapi.service.WeatherProviderService;
+import ru.alexa.openweatherapi.dto.ApiResponseDto;
+import ru.alexa.openweatherapi.dto.MetricSystem;
+import ru.alexa.openweatherapi.dto.RequestDto;
+import ru.alexa.openweatherapi.service.WeatherProviderService;
 
 @RestController
 @RequiredArgsConstructor

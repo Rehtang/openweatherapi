@@ -1,11 +1,11 @@
-package ru.rehtang.openweatherapi.feign;
+package ru.alexa.openweatherapi.feign;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import ru.rehtang.openweatherapi.dto.ApiResponseDto;
-import ru.rehtang.openweatherapi.dto.Language;
-import ru.rehtang.openweatherapi.dto.MetricSystem;
+import ru.alexa.openweatherapi.dto.ApiResponseDto;
+import ru.alexa.openweatherapi.dto.Language;
+import ru.alexa.openweatherapi.dto.MetricSystem;
 
 @FeignClient(name = "openWeatherFeignClient", url = "${openWeatherApi.feign.url}")
 public interface OpenWeatherFeignClient {
